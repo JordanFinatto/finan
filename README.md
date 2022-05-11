@@ -3,3 +3,6 @@ Tema da atividade prática de GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE: controle 
 
 Uso do Git:
 https://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+Uso do Flyway com MySQL:
+https://flywaydb.org/documentation/database/mysql
