@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
     nome VARCHAR(50) NOT NULL,
     usuario VARCHAR(50) NOT NULL,
     senha VARCHAR(50) NOT NULL,
-    nivel TINYINT NOT NULL   
+    nivel VARCHAR(50) NOT NULL
 )
 
 INSERT INTO usuarios (nome, usuario, senha, nivel) VALUES ('Morgana', 'morgana@hotmail.com', '123', 'comum');
@@ -22,15 +22,15 @@ CREATE TABLE IF NOT EXISTS receitas (
     nome VARCHAR(50) NOT NULL
 )
 
-INSERT INTO despesas (nome) VALUES ('Aluguel');
-INSERT INTO despesas (nome) VALUES ('Cartão Alimentação');
-INSERT INTO despesas (nome) VALUES ('Cartão Convênio/Prêmio');
-INSERT INTO despesas (nome) VALUES ('Cartão Refeição');
-INSERT INTO despesas (nome) VALUES ('Empréstimo');
-INSERT INTO despesas (nome) VALUES ('FGTS');
-INSERT INTO despesas (nome) VALUES ('Investimentos');
-INSERT INTO despesas (nome) VALUES ('Salário');
-INSERT INTO despesas (nome) VALUES ('Venda de bens');
+INSERT INTO receitas (nome) VALUES ('Aluguel');
+INSERT INTO receitas (nome) VALUES ('Cartão Alimentação');
+INSERT INTO receitas (nome) VALUES ('Cartão Convênio/Prêmio');
+INSERT INTO receitas (nome) VALUES ('Cartão Refeição');
+INSERT INTO receitas (nome) VALUES ('Empréstimo');
+INSERT INTO receitas (nome) VALUES ('FGTS');
+INSERT INTO receitas (nome) VALUES ('Investimentos');
+INSERT INTO receitas (nome) VALUES ('Salário');
+INSERT INTO receitas (nome) VALUES ('Venda de bens');
 
 
 --------------------------------------------------------------------------------
@@ -57,4 +57,3 @@ INSERT INTO despesas (nome) VALUES ('Streaming de áudio');
 INSERT INTO despesas (nome) VALUES ('Streaming de vídeo');
 INSERT INTO despesas (nome) VALUES ('Telefonia Fixa');
 INSERT INTO despesas (nome) VALUES ('Telefonia Móvel');
-
