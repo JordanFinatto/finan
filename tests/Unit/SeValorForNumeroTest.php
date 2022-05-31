@@ -5,7 +5,7 @@ namespace Tests\Unit;
 use Tests\TestCase;
 use Tests\Validator\RetornaSeValorForNumero;
 
-final class SeValorForNumberoTest extends TestCase
+final class SeValorForNumeroTest extends TestCase
 {
     // anotação necessária para o PHPUnit interpretar o formato do teste
     /**
