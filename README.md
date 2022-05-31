@@ -9,6 +9,9 @@ Aplicação construída com base em:
 - Composer 2.3.5
 - XAMPP 7.3.7
 
-Utilização do Git:
+Sobre os Testes Unitários:
+https://docs.google.com/document/d/1LGZvws3Teo6oTD33k-9b8m1AscoOrMdaHrfzsk5Snhk/edit?usp=sharing
+
+Sobre a Utilização do Git:
 https://rogerdudler.github.io/git-guide/index.pt_BR.html
 
