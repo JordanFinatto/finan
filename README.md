@@ -8,6 +8,7 @@ Aplicação construída com base em:
 - PHPUnit 9.5
 - Composer 2.3.5
 - XAMPP 7.3.7
+- Node.js 12.6.0
 
 Sobre os Testes Unitários:
 https://docs.google.com/document/d/1LGZvws3Teo6oTD33k-9b8m1AscoOrMdaHrfzsk5Snhk/edit?usp=sharing
