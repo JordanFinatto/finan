@@ -11,6 +11,7 @@ Aplicação construída com base em:
 - Node.js 12.6.0
 
 $ composer require laravel/ui
+
 $ php artisan ui vue --auth
 
 Sobre os Testes Unitários:
