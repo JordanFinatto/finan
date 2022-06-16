@@ -29,7 +29,7 @@ $ docker images
 - Ver containers iniciados
 $ docker ps
 - Acessar um container (diretórios e arquivos)
-$ docker exect -it CONTAINER_ID bash
+$ docker exec -it CONTAINER_ID bash
 - Executar scripts Compose.yml
 $ docker-compose up -d
 
