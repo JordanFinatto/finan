@@ -24,12 +24,16 @@ Jenkins presente na VM (ip fixo):
 http://177.44.248.105:8082/
 
 Docker:
+
 - Ver imagens Docker existentes
 $ docker images
+
 - Ver containers iniciados
 $ docker ps
+
 - Acessar um container (diretórios e arquivos)
 $ docker exec -it CONTAINER_ID bash
+
 - Executar scripts Compose.yml
 $ docker-compose up -d
 
