@@ -24,8 +24,8 @@ final class SeDataMaiorQueAtualTest extends TestCase
     public function valueProvider()
     {
         return [
-            'deveSerValidoQuandoDataForMenorQueAtual' => ['value' => '2022-05-29', 'expectedResult' => true],
-            'deveSerInvalidoQuandoDataForMaiorQueAtual' => ['value' => '2025-12-01', 'expectedResult' => false]
+            'deveSerInvalidoQuandoDataForMenorQueAtual' => ['value' => '2022-05-29', 'expectedResult' => false],
+            'deveSerValidoQuandoDataForMaiorQueAtual' => ['value' => '2025-12-01', 'expectedResult' => true]
         ];
     }
 }

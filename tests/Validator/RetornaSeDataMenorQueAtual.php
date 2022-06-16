@@ -4,7 +4,7 @@ namespace Tests\Validator;
 
 use DateTime;
 
-class RetornaSeDataMaiorQueAtual
+class RetornaSeDataMenorQueAtual
 {
     private $value;
 
@@ -15,6 +15,6 @@ class RetornaSeDataMaiorQueAtual
 
     public function isValid()
     {
-        return $this->value > new \DateTime('now');
+        return $this->value < new \DateTime('now');
     }
 }
