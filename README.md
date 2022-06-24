@@ -37,3 +37,12 @@ $ docker exec -it CONTAINER_ID bash
 - Executar scripts Compose.yml
 $ docker-compose up -d
 
+
+1. Stop/Remover container Jenkins do docker
+2. Instalar Jenkins direto na VM Linux
+3. nova job com Jenkinsfile executando com sucesso o sh 'docker --version'
+4. git pull na vm linux
+5. 
+
+Instalar Jenkins no Ubuntu 20.4:
+- https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04-pt
