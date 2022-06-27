@@ -4,7 +4,10 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh 'docker --version'
+                cd /home/univates/finan
+                ./vendor/bin/sail down
+                git pull
+                ./vendor/bin/sail up -d
             }
         }
     }
