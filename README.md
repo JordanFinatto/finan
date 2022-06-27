@@ -49,3 +49,6 @@ Instalar Jenkins no Ubuntu 20.4:
 
 Permissão geral para funcionamento com Sail:
 - Com usuário root:root você tenta com o comando: sudo chmod -R 777 storage/
+
+sudo apt-get update
+sudo apt install php-xml
