@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    Obrigado por utilizar essa aplicação.
+                    Agradecemos por utilizar esta aplicação.
                 </div>
             </div>
         </div>
