@@ -46,3 +46,6 @@ $ docker-compose up -d
 
 Instalar Jenkins no Ubuntu 20.4:
 - https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04-pt
+
+Permissão geral para funcionamento com Sail:
+- Com usuário root:root você tenta com o comando: sudo chmod -R 777 storage/
