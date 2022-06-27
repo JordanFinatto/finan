@@ -4,9 +4,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh "./home/univates/finan/vendor/bin/sail down"
+                sh "./var/lib/jenkins/workspace/finan/vendor/bin/sail down"
                 sh "git pull"
-                sh "./home/univates/finan/vendor/bin/sail up -d"
+                sh "./var/lib/jenkins/workspace/finan/vendor/bin/sail up -d"
             }
         }
     }
