@@ -52,4 +52,5 @@ Permissão geral para funcionamento com Sail:
 
 sudo apt-get update
 
-sudo apt install php-xml
+sudo apt install php-curl
+
