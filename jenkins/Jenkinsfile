@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('Deploy') {
             steps {
                 echo 'Deploy...'
-                sh "git pull"
+                sh "git pull origin master"
             }
         }
     }
