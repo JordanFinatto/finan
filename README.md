@@ -50,6 +50,10 @@ sudo apt-get update
 
 sudo apt install php-curl
 
+composer install
+
+cp .env.example .env
+
 php artisan key:generate
 
 php artisan migrate
